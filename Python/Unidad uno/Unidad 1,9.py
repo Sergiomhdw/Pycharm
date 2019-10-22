@@ -1,0 +1,1 @@
+print(int(input("Primer número: "))+int(input("Segundo número: "))+int(input("Tercer número: ")))
