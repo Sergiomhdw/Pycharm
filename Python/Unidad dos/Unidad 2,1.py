@@ -1,3 +1,10 @@
+#Reescribe el programa del cálculo del coste de un servicio, 
+#para darle 1.5 veces la tarifa horaria para todas las horas trabajadas que excedan de 40. 
+# Horas de trabajo: 45 
+# Coste por hora: 10 
+# Importe total: 475.0 
+
+
 horas=int(input("horas trabajada:"))
 costes=int(input("Valor de la hora:"))
 if  horas > 40:         #Si horas es mayor que 40
