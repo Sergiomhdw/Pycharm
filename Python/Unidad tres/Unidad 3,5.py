@@ -9,4 +9,4 @@ for i in range(0,51):   #este es el bucle que me da todos los valores pares hast
         lista.append(i)        #el .append añade a la lista que se a creado el valor de i que he introducido
 
 print(lista)
-print ("La suma de todos los numeros es igual:",total)  
+print ("La suma de todos los numeros es igual:",total) 
