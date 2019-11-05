@@ -11,5 +11,5 @@ for i in range(1, n1):
     if n1 % i == 0:     
         suman+=i
         lista.append(i)
-        print(lista)
+print(lista)
 

@@ -1,0 +1,239 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>PRUEBA</title>
+	<style>
+		table,th,td {border: 2px solid green;
+
+	}
+	
+	</style>
+</head>
+<body style="background-color:#65D9E4">
+	
+	<P>Esto es un párrafo</p>
+
+		<!-- Atributos -->
+		<p title="Esto es un párrafo">Párrafo con atributo título </p>
+		<h3 id="Inicio">Principio de la pagina</h3>
+		<img src="211.png" width="250" height="250">
+		<img src="211" alt="MA MUSIC" width="200" height="200">
+
+		<!--EL COMILLADO -->
+
+		<p title="Párrafo con 'comillas'">comillas</p>
+
+		<!-- Entidades. Caracteres reservados-->
+		<p> El signo menor &lt; es un carácter reservado</p>
+		<p> El signo mayor &gt; es un carácter reservado</p>
+		<p> El signo ampersand &mp; es un carácter reservado</p>
+		<p> El signo comillas dobles &quot; es un carácter reservado</p>
+		<p> El signo comillas simples &apos; es un carácter reservado</p>
+
+		<!-- ENCABEZADOS -->
+
+		<h1>Encabezado 1</h1>
+		<h2>Encabezado 2</h2>
+		<h3>Encabezado 3</h3>
+		<h4>Encabezado 4</h4>
+		<h5>Encabezado 5</h5>
+		<h6>Encabezado 6</h6>
+		<br> <!-- Saltos de linea -->
+		
+
+		<!-- Lineas-->
+
+		<hr>
+		<br>
+
+		<!-- Parrafo sin formato -->
+
+		<p>Este <br>
+		 parrafo <br>
+		 contiene <br>
+		 saltos <br>
+		 de <br>
+		 lienea</p>
+
+		<pre>	Este parrafo
+	tiene
+	saltos de lienea</pre>
+
+
+		<!-- Estilos CSS-->
+
+		<p style="color:blue;">Parrafo con color</p>
+		<h1 style=" font-family:arial;"> Esto es un h1</h1>
+		<h2 style="font-size: medium;"> Esto es un h2 </h2>
+
+		<!-- formatear texto-->
+
+		<p>este párrafo contiene<b> texto en negrita</b></p>
+		<p>Este párrafo contiene <strong>Texto importante</strong></p>	
+		<p>Este párrafo contiene <i> texto en cursiva</i></p>
+		<p>Este párrafo contiene <em>texto enfático</em></p>
+		<p>Este párrafo contiene <mark>Marcado</mark></p>
+		<p>Este párrafo es <small> pequeño</small></p>
+		<p>Este párrafo contiene <del>Texto eliminado</del></p>
+		<p>Este párrafo contiene <ins>texto añadido</ins></p>
+		<p>Este oárrafo contiene <sub> un subíndice</sub></p>
+		<p>Este párrafo contiene <sup>un superíndice</sup></p>
+
+
+		<!-- COLORES -->
+
+		<p style="color: rgb(255,0,0);">Esto es el color rojo</p>
+		<p style="color: rgb(0,0,0);">Esto es el color negro</p>
+		<p style="color: rgb(255,255,255);">Esto es el color blanco</p>
+		<p style="color: rgb(60,60,60);">Esto es un gris</p>
+		<p style="color: rgb(120,120,120);">Esto es un gris mas claro</p>
+
+		<!-- color hex-->
+
+		<p style="color:#5A1EA1">Esto es purpura</p>
+		<p style="color:#F58106">Esto es naranja</p>
+		<p style="color: #091223"> Este no se que color es </p>
+
+		<!-- COLOR HSL (matriz,) -->
+
+		<p style="color:hsl(0,100%,50%)">NO se que color es este 
+		</p>
+		<p style="color:hsl(240,30%,90%)">NO se que color es este 
+		</p>
+		<p style="color:hsl(140,90%,50%)">NO se que color es este 
+		</p>
+
+		<!--Color RGBA El ultimo numero con decimales es la transparencia entre 0.0 y 0.9-->
+		
+		<p style="color: rgba(0,0,250,0.9);">COLOR CON TRANSPARENCIA</p>
+		<p style="color: rgba(230,230,0,0.3);">COLOR CON TRANSPARENCIA</p>
+
+
+		<!-- Citas textuales -->
+
+		<p>Sengun el W3c, el valor de atributo <em>cite </em> en las etiquetas <strong> blockquote</strong> tiene el siguiente significado:</p>
+		<blockquote cite=http://www.w3.og>"el valor de este atributo es una direccion url que indica el documento original de la cita"</blockquote>
+
+		<p>Como dijo <cite> Mahatma Gandhi</cite>:<blockquote>"vive como si fuera para siempre"</blockquote></p>
+		
+		<!--Acrónimos o siglas -->
+
+		<p> El lenguaje <acronym title="HyperText Markup Lanfuage">html</acronym> es estandarizado por el <abbr title="World wide web consurtorium">W3C</abbr></p>
+		
+		<!--Enlaces -->
+		<!-- Un enlace puede ser texto, imafgen o cualquier elemento html-->
+
+		<a href="https://www.w3schools.com/html/" target="_black">Enlace a una pagina web</a>
+		<a href="https://www.w3schools.com/html/" target="_self">Enlace a una pagina web</a>
+		<a href="https://www.w3schools.com/html/" target="_top">Enlace a una pagina web</a>
+		<br>
+		<a href="https://www.w3schools.com/html/"><img src="211.png" alt="" style="width:250;height:250;"> </a>
+
+		
+
+		<!--Marcadores --><br><br>
+		<a href="#Inicio">Saltar al principio de la pagina></a>
+
+		
+		<!--Imagenes animadas --><br>
+		<img src="GIF.gif" alt="" style="width:250;height:250;">
+
+
+		<!--Imagenes flotantes -->
+		<p><img src="211.png" alt="" style="width:250;height:250;float:right;"> Imagen a la derecha</p>
+		<p><img src="211.png" alt="" style="width:250;height:250;float:left;"> Imagen a la izquierda</p>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<!-- Imagen como vinculo -->
+
+		<a href="https://www.w3schools.com/html/">
+				<img src="211.png" alt="MA MUSIC" style="width:250;height:250;">
+		</a>		
+		<br><br><br><br><br><br><br><br><br>
+		
+		<!--Mapa de imagenes -->
+
+		<img src="planetmap.jpg" alt="" usemap="#planetmap" style="";>
+
+		<map name="planetmap">
+			<!--<area shape="rect" coords="" alt="" href="https://www.w3schools.com/html/html_formatting.asp">-->
+			<!--<area shape="circle" coords="" alt="" href="https://www.w3schools.com/html/html_formatting.asp">-->
+			<!--<area shape="poly" coords="" alt="" href="https://www.w3schools.com/html/html_formatting.asp">-->
+			<area shape="poly" coords="1,155;69,245;90,319;93,400;76,476;32,530;0,531" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+			<area shape="circle" coords="124,229;8" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+			<area shape="circle" coords="159,212;13" alt="" href="https://www.w3schools.com/html/html_formatting.asp"> 
+			<area shape="circle" coords="197,195;14" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+			<area shape="circle" coords="233,180;9" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+			<area shape="circle" coords="435,325;70" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+			<area shape="poly" coords="492,279;588,189;707,205;605,284" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+			<area shape="circle" coords="753,181;31" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+			<area shape="circle" coords="830,144;26" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+			<area shape="circle" coords="893,229;3" alt="" href="https://www.w3schools.com/html/html_formatting.asp">
+
+		</map>
+
+
+		<!--Tablas html -->
+
+		
+		<table style="width:100%">
+			
+
+			<tr><!-- TR SON LAS FILAS-->
+				<th>Primer nombre</th>
+				<th>Segundo nombre</th>
+				<th>Edad</th>
+				<th>DNI</th>
+			</tr>
+
+			<tr>
+				<td>Julio</td>
+				<td>Román</td>
+				<td>44</td>
+				<td>12457889H</td>
+			</tr>
+			<tr>
+				<td>Paquito</td>
+				<td>Pesego</td>
+				<td>16</td>
+				<td>23568978V</td>
+				
+			</tr>
+
+		<!--Celdas que abarcan muchas columnas-->
+
+		<table style="width: 60%">
+			<tr>
+				<th>Nombre</th>
+				<th colspan="2"> Teléfono</th>
+
+			</tr>
+			<tr>
+				<td>Bill Gates</td>
+				<td>457784512</td>
+				<td>654767678</td>
+				
+			</tr>
+
+
+
+
+
+
+
+
+
+		</table>
+
+
+
+
+
+		</table>
+
+
+
+
+</body>
+</html>
